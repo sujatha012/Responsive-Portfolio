@@ -1,0 +1,180 @@
+
+#header {
+    padding-bottom: 67px;
+}
+
+.content {
+    width: 960px;
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+    align-content: center;
+}
+.tbl{
+    float: left;
+    align-content: left;
+    width: 40%;
+}
+
+.tbl_second{
+    float: right;
+    align-content: left;
+    width: 60%;
+}
+
+#portfolio {
+
+    clear:both;
+    list-style-position: outside;
+    padding: unset;
+    margin: unset;
+    width:500px;
+
+}
+
+
+
+ul li img {
+    width: 150px;
+    height: 150px;
+}
+
+.porfolio li {
+    width: auto;
+}
+
+.imgTxt {
+
+    position: relative;
+    text-align: center;
+    top: -60px;
+    left:0px;
+    height: 40px;
+    padding-top: 10px;
+    display: inline-block;
+    background-color: #4aaaa5;
+    color: white;
+    width: 150px;
+
+}
+
+
+@media only screen and (max-width: 980px){
+
+
+
+   .portfolio li img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .porfolio li {
+         width: auto;
+     }
+
+    .imgTxt {
+
+        position: relative;
+        text-align: center;
+        top: -60px;
+        left:0px;
+        height: 40px;
+        padding-top: 10px;
+        display: inline-block;
+        background-color: #4aaaa5;
+        color: white;
+        width: 150px;
+
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+   /*.portfolio {*/
+
+        /*align-items: center;*/
+        /*list-style-position: outside;*/
+        /*padding: unset;*/
+        /*margin: unset;*/
+        /*width:500px;*/
+
+    /*}*/
+
+
+
+   .portfolio li img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .porfolio li {
+        width: auto;
+    }
+
+    .imgTxt {
+
+        position: relative;
+        text-align: center;
+        top: -60px;
+        left:0px;
+        height: 40px;
+        padding-top: 10px;
+        display: inline-block;
+        background-color: #4aaaa5;
+        color: white;
+        width: 150px;
+
+    }
+}
+
+@media only screen and (max-width: 640px) {
+
+
+    .portfolio {
+
+        align-items: center;
+        list-style-position: outside;
+        padding: unset;
+        margin: unset;
+        width:250px;
+
+    }
+    .porfolio li {
+        width: auto;
+    }
+
+    .imgTxt {
+
+        position: relative;
+        text-align: center;
+        top: -60px;
+        left:0px;
+        height: 40px;
+        padding-top: 10px;
+        display: inline-block;
+        background-color: #4aaaa5;
+        color: white;
+        width: 150px;
+
+    }
+
+    .tbl{
+        float: left;
+        align-content: center;
+        width: 100%;
+        padding: unset;
+        margin: unset;
+
+    }
+
+    .tbl_second{
+        display: inline-block;
+        float: left;
+        align-content: center;
+        width: 100%;
+        padding: unset;
+        margin: unset;
+    }
+
+}
