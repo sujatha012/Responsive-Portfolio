@@ -1,62 +1,107 @@
 <!DOCTYPE html>
-<html>
-
-
+<html lang="en-us">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="assets/CSS/style.css">
-
+    <!-- Document responsive across devices. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Document's character set. -->
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <!-- Linking CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- Linking Google Fonts -->
+    <link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Montserrat">
 </head>
-
 <body>
 
-<div id="header">
+<nav class="navbar navbar-default navbar-static-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Sujatha Balakrishnan</a>
+        </div>
 
-    <h1 id="nme">Sujatha B</h1>
-    <ul id="flex-list">
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="index.html">About <span class="sr-only">(current)</span></a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+<!--End navigation-->
 
-        <li>
-            <a href="index.html">
-                About
-            </a>
-        </li>
-        <li>
-            <a href="portfolio.html">
-                Portfolio
-            </a>
-        </li>
-        <li>
-            <a href="contact.html">
-                Contact
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 well">
+            <div class="page-header">
+                <h1>About Me</h1>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 col-md-4">
+                    <img class="img-thumbnail pull-left" src="assets/images/meggin.png" alt="Bio picture">
+                </div>
+                <div class="col-sm-8 col-md-8">
+                    <p>
+                        I'm a technical personal in the past and a mom, with two children. I have been in the quality
+                        assurance(2015) until few years back. Even before that I have worked as Programmer analyst(2010).
+                        This year, I decided to resume my professional carrier. After careful research and aligning with my goals, I have decided to
+                        move into the full stack development. Hence, I am in this bootcamp to learn/
+                        sharpen my skillset on frontend technologies, backend and middleware technologies.
+                        Hopefully after 6 months of writing code intensely,
+                        I can take the next steps to slowly transition into an engineering role,
+                        fingers crossed, as a developer advocate in my existing team.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Connect with me</h3>
+                </div>
+                <div class="panel-body">
+                    <ul class="list-group list-inline">
+                        <li class="list-group-item"><a href="https://github.com/Sujatha012"><img class="icon"
+                                                                                                 src="assets/images/github-128.png"
+                                                                                                 alt="GitHub Profile"></a>
+                        </li>
+                        <li class="list-group-item"><a
+                                href="https://www.linkedin.com/in/sujatha-balakrishnan-5404701a/"><img class="icon"
+                                                                                                       src="assets/images/square-linkedin-128.png"
+                                                                                                       alt="LinkedIn Profile"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End main content -->
 
-            </a>
-        </li>
-    </ul>
-
+    <!-- Footer starts here. -->
+    <footer>
+        <div class="container">
+            <p class="text-center text-muted">
+                &#64; Copyright 2018 Sujatha Balakrishnan
+            </p>
+        </div>
+    </footer>
 </div>
 
-<div class="content">
-    <h1 id="pageTitle">About Me
-
-        <br/></h1>
-
-
-    <p><img src="assets/Images/roses.jpeg" id="about"/> Mickey Mouse turns 80 years old today, and there's not a gray hair on
-        him. Sure, he's a little rounder, a little
-        squatter, and he's been wearing the same clothes for decades, but all in all he looks pretty good. Sure, Mickey
-        hasn't had a movie in two years (his last one went direct-to-video), but his cheerful face remains one of the
-        most recognizable images in the world, even beating out Santa Claus. Disney threw a big party for the mouse's
-        75th birthday, so this year's festivities will be comparatively subdued. </p>
-    <p>In 1935, a young animator named Fred Moore gave Mickey his first makeover. Earlier animators had drawn the mouse
-        as a series of circles, which limited his movement.</p>
-    <p>Moore — who later animated Fantasia's Sorcerer's Apprentice segment — gave him a pear-shaped body, pupils, white
-        gloves and a shortened nose, to make him cuter.</p>
-
-</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
-
-
-<footer class="footer">
-    <c>Copyright&copy;</c>
-</footer>
 </html>
