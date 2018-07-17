@@ -9,13 +9,25 @@
     <meta charset="UTF-8">
     <title>My Portfolio</title>
     <!-- Linking CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/CSS/style.css">
     <!-- Linking Google Fonts -->
     <link rel="stylesheet" type="text/css"
           href="https://fonts.googleapis.com/css?family=Montserrat">
 </head>
 <body>
+<script type="text/javascript">
+    $(document).ready(function(){
 
+
+            // if (document.createStyleSheet){
+            //     document.createStyleSheet('assets/css/style.css');
+            // }
+            // else {
+                $("head").append($("<link rel='stylesheet' href='assets/CSS/style.css' type='text/css' media='screen' />"));
+            // }
+
+    });
+</script>
 <nav class="navbar navbar-default navbar-static-top">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -58,7 +70,7 @@
                 </div>
                 <div class="col-md-6">
                     <a href="https://sujatha012.github.io/liri-node-app">
-                    <img class="img-thumbnail project" src="assets/images/Node.jpg" alt="Liri Node App"><span
+                    <img class="img-thumbnail project" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png" alt="Liri Node App"><span
                             class="project-title">LIRI Node APP</span></a>
                         <p class="description">LIRI node app - node.js, ajax, api functions - to provide ratings & other info for movies, songs</p>
                 </div>
@@ -66,7 +78,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <a href="https://sujatha012.github.io/TriviaGame/">
-                    <img class="img-thumbnail project" src="https://static1.squarespace.com/static/5327b065e4b0616e49dc1ad3/t/55ecdd4fe4b043ba11f03d14/1441586512969/" alt="Project 1"><span
+                    <img class="img-thumbnail project" src="https://static1.squarespace.com/static/5327b065e4b0616e49dc1ad3/t/55ecdd4fe4b043ba11f03d14/1441586512969/" alt="Trivia Game"><span
                             class="project-title">Trivia Game</span></a>
                     <p class="description">Trivia game which will illustrate how to use date functions using moment.js and timers.</p>
                 </div>
@@ -80,13 +92,13 @@
             <div class="row">
                 <div class="col-md-6">
                     <a href="https://github.com/jerrymehrwerth/1st_project">
-                    <img class="img-thumbnail project" src="assets/images/trip.jpg" alt="Project 1"><span
+                    <img class="img-thumbnail project" src="https://startupbeat.com/wp-content/uploads/2014/04/Utrip-screenshot-Paris.png" alt="Project Trip"><span
                             class="project-title">Project Trip</span></a>
                     <p class="description">Group Project for Trip</p>
                 </div>
                 <div class="col-md-6">
                     <a href="https://sujatha012.github.io/Psychic-Game/">
-                    <img class="img-thumbnail project" src="assets/images/psychic_game.jpg" alt="Project 1"><span
+                    <img class="img-thumbnail project" src="http://thepsychicgame.com/attachments/Image/banner_big_tpg.JPG" alt="Psychic Game"><span
                             class="project-title">Psychic Game</span></a>
                     <p class="description">Basic letter guessing game</p>
 
@@ -101,12 +113,12 @@
                 <div class="panel-body">
                     <ul class="list-group list-inline">
                         <li class="list-group-item"><a href="https://github.com/Sujatha012"><img class="icon"
-                                                                                                 src="assets/images/github-128.png"
+                                                                                                 src="https://assets-cdn.github.com/images/modules/open_graph/github-octocat.png"
                                                                                                  alt="GitHub Profile"></a>
                         </li>
                         <li class="list-group-item"><a
                                 href="https://www.linkedin.com/in/sujatha-balakrishnan-5404701a/"><img class="icon"
-                                                                                                       src="assets/images/square-linkedin-128.png"
+                                                                                                       src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/2000px-Linkedin.svg.png"
                                                                                                        alt="LinkedIn Profile"></a>
                         </li>
                     </ul>
