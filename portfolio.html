@@ -9,13 +9,25 @@
     <meta charset="UTF-8">
     <title>My Portfolio</title>
     <!-- Linking CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/CSS/style.css">
     <!-- Linking Google Fonts -->
     <link rel="stylesheet" type="text/css"
           href="https://fonts.googleapis.com/css?family=Montserrat">
 </head>
 <body>
+<script type="text/javascript">
+    $(document).ready(function(){
 
+
+            // if (document.createStyleSheet){
+            //     document.createStyleSheet('assets/css/style.css');
+            // }
+            // else {
+                $("head").append($("<link rel='stylesheet' href='assets/CSS/style.css' type='text/css' media='screen' />"));
+            // }
+
+    });
+</script>
 <nav class="navbar navbar-default navbar-static-top">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
